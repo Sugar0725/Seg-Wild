@@ -12,7 +12,9 @@ An overview of our framework. During the reconstruction of in-the-wild scenes, w
 We compare our method with Feature 3DGS, SAGA, GS-W with projection-based segmentation.
 
 ### Visualization results of the novel view synthesis
-![Novel view synthesis](https://github.com/sugerkiller/Seg-Wild/blob/main/assets/novel_view.png)
+<p align="center">
+  <img src="https://github.com/sugerkiller/Seg-Wild/blob/main/assets/novel_view.png" width="70%">
+</p>
 We perform novel view synthesis on the segmentation and render the results using different camera poses.
 
 ### Visualization results of appearance tuning
