@@ -4,4 +4,4 @@ Official PyTorch implementation for **"Seg-Wild: Interactive Segmentation based 
 
 
 ## Framework Overview
-![Overall Pipline of Seg-Wild] (assets/pipline.png)
+![Overall Pipeline of Seg-Wild](https://github.com/sugerkiller/Seg-Wild/blob/main/assets/pipline.png)
