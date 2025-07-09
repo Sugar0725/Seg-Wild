@@ -18,7 +18,9 @@ We compare our method with Feature 3DGS, SAGA, GS-W with projection-based segmen
 We perform novel view synthesis on the segmentation and render the results using different camera poses.
 
 ### Visualization results of appearance tuning
-![Appearance tuning](https://github.com/sugerkiller/Seg-Wild/blob/main/assets/appearance.png)
+<p align="center">
+  <img src="https://github.com/sugerkiller/Seg-Wild/blob/main/assets/appearance.png" width="70%">
+</p>
 We perform appearance tuning on the segmented regions by interpolating the appearance weights of two images.
 
 
