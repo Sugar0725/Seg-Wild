@@ -1,4 +1,4 @@
-# Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections
+# Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections (ACM MM 2025)
 We propose Seg-Wild, a novel interactive 3D segmentation framework tailored for unconstrained photo collections. Built on 3D Gaussian Splatting, Seg-Wild embeds multi-dimensional features into 3D Gaussians and performs interactive segmentation via feature similarity with user-specified targets. To mitigate noise and artifacts in unconstrained data, we introduce the Spiky 3D Gaussian Cutter (SGC) for geometric refinement. We also develop a benchmark to evaluate segmentation quality in in-the-wild scenarios.
 
 ## Framework Overview
