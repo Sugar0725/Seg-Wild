@@ -43,6 +43,7 @@ parser.add_argument("--data_perturb", nargs="+", type=str, default=[])
 parser.add_argument("--segment_name", type=str, default=None)
 parser.add_argument("--sam_checkpoint_path", default="./dependencies/sam_ckpt/sam_vit_h_4b8939.pth", type=str)
 parser.add_argument('--ref_img', type=int, default=0)
+parser.add_argument('--rend_img', type=int, default=0)
 
 args = parser.parse_args(sys.argv[1:])
 args.save_iterations.append(args.iterations)
@@ -219,7 +220,7 @@ similarities[similarities < 0.2] = 0
 bg_color = [1,1,1]
 background = torch.tensor(bg_color, dtype=torch.float32, device="cuda")
 cameras = scene.getTrainCameras()
-render_idx = 25
+render_idx = args.rend_img
 rendered_similarities = render(cameras[image_id], gaussians, pp.extract(args), background, override_color=similarities.unsqueeze(-1).repeat([1,3]))['render']
 
 # plt.imshow(rendered_similarities.permute([1,2,0])[:,:,0].detach().cpu() > 0.6)
