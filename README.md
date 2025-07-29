@@ -3,7 +3,7 @@ We propose Seg-Wild, a novel interactive 3D segmentation framework tailored for 
 
 ## Framework Overview
 <p align="center">
-  <img src="https://github.com/sugerkiller/Seg-Wild/blob/main/assets/pipline.png" width="90%">
+  <img src="https://github.com/Sugar0725/Seg-Wild/blob/master_v2/assets/pipline.png" width="90%">
 </p>
 An overview of our framework. During the reconstruction of in-the-wild scenes, we embed affinity features into 3D Gaussians to construct a 3D feature field. Optimized by the scale-adaptive segmentation module (SASM), the SAM mask promotes feature compactness for improved segmentation. In the segmentation process, we use the prompt points $\mathscr{pp}$ to find the feature embeddings of the reference image $I_i$ and calculate the similarity with the affinity features $af$ to identify the similar 3D Gaussians. The spiky 3D Gaussians cutter (SGC) refines the segmentation results to obtain the final output segmentation.
 
